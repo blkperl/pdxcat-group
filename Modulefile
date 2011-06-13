@@ -1,0 +1,6 @@
+name    'pdxcat-group'
+version '0.0.1'
+source ''
+author 'Reid Vandewiele <marut@cat.pdx.edu>'
+description 'Adds a group provider "gpasswd"'
+project_page 'https://github.com/pdxcat/pdxcat-group'

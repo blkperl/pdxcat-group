@@ -1,0 +1,7 @@
+group
+
+We had need of a group provider on Ubuntu/Solaris with 
+has_feature => manages_members, so inspired by the discussion in 
+http://markmail.org/message/5slfffn4nca4crem we wrote a quick provider that
+we called gpasswd, which will use gpasswd on Ubuntu but just mucks with the
+/etc/group file on solaris. 
