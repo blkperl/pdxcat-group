@@ -1,0 +1,15 @@
+# Example usage
+#
+#  group {
+#    "root":
+#      provider => gpasswd,
+#      ensure   => present,
+#      gid      => "0",
+#      members  => [
+#        "marut",
+#        "blkperl",
+#        "finch",
+#        "nibz",
+#     ];
+#  }
+#
